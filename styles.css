@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: #fff;
+  background-color: rgba(238, 238, 238, 0.2);
   color: #636363;
   font-family: Arial, sans-serif;
   margin: 0;
