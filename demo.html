@@ -7,16 +7,22 @@
     <title>Demo</title>
   </head>
   <body>
-    <form action="/test" target="_blank">
+    <!-- Форма обратной связи -->
+    <form action="https://www.youtube.com/results" method="get" target="_blank">
       <div class="formEmail">
-        <label for="email">Введите почту</label>
-        <input type="email" placeholder="Почта" id="email" />
+        <label for="query">Введите запрос</label>
+        <input
+          type="text"
+          placeholder="Запрос..."
+          id="query"
+          name="search_query"
+        />
       </div>
-      <div class="formPassword">
-        <label for="password">Введите пароль</label>
-        <input type="password" placeholder="Пароль" />
+      <div class="formAgree">
+        <label for="agree">Согласен с обрабткой данных</label>
+        <input type="checkbox" id="agree" name="agree" />
       </div>
-      <button>Отправить</button>
+      <button>Поиск на YouTube</button>
     </form>
   </body>
 </html>
