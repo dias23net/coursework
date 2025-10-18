@@ -40,7 +40,6 @@ form input {
   outline: none;
   border-radius: 10px;
   box-sizing: border-box;
-  font-size: 14px;
 }
 form input::-moz-placeholder {
   color: #d3d2d2;
